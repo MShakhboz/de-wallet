@@ -35,7 +35,7 @@ const ModalContainer = styled.div`
 
     @media only screen and (min-width: 1279px) {
         max-width: 390px;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
         left: 50%;
         transform: translate(-50%, 0%);
     }
@@ -44,6 +44,11 @@ const ModalContainer = styled.div`
 const ModalContent = styled.div`
     overflow-y: auto;
     height: 90vh;
+
+    @media only screen and (min-width: 1279px) {
+        height: 700px;
+        overflow-y: hidden;
+    }
 `;
 
 const ModalHeaderWrapper = styled.div`

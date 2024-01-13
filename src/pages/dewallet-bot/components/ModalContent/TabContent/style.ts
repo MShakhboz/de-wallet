@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
     width: 100%;
+    padding-bottom: 40px;
 `;
 
 const Row = styled.div`

@@ -50,7 +50,7 @@ const ContentSection = styled.div`
 
 const TabContent = styled.div<StyleProp>`
     height: ${({ tabId }) => (tabId == "tokens" ? "280px" : "340px")};
-    overflow-y: auto;
+    /* overflow-y: auto; */
     margin-right: -16px;
 
     &::-webkit-scrollbar {
@@ -58,7 +58,8 @@ const TabContent = styled.div<StyleProp>`
     }
 
     @media only screen and (min-width: 1279px) {
-        height: ${({ tabId }) => (tabId == "tokens" ? "380px" : "420px")};
+        overflow-y: auto;
+        height: ${({ tabId }) => (tabId == "tokens" ? "380px" : "380px")};
     }
 `;
 
