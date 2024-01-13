@@ -1,10 +1,14 @@
 {
   "files": {
-    "main.css": "/de-wallet/static/css/main.26874f9b.css",
-    "main.js": "/de-wallet/static/js/main.b93eb9d2.js",
+    "main.css": "/de-wallet/static/css/main.bc60ae19.css",
+    "main.js": "/de-wallet/static/js/main.72ef46e1.js",
+    "static/media/SFProText-Bold.eot": "/de-wallet/static/media/SFProText-Bold.63d576a6904d6497f548.eot",
+    "static/media/SFProText-Bold.ttf": "/de-wallet/static/media/SFProText-Bold.07d37090723cdb8a1bca.ttf",
     "static/media/SFProText-Regular.eot": "/de-wallet/static/media/SFProText-Regular.aabd798319492c6c3969.eot",
     "static/media/SFProText-Regular.ttf": "/de-wallet/static/media/SFProText-Regular.17df19227c402f374807.ttf",
+    "static/media/SFProText-Bold.woff": "/de-wallet/static/media/SFProText-Bold.87b1bfa518c539efbca3.woff",
     "static/media/SFProText-Regular.woff": "/de-wallet/static/media/SFProText-Regular.66393b3b3bbb0ca35717.woff",
+    "static/media/SFProText-Bold.woff2": "/de-wallet/static/media/SFProText-Bold.2ad23236cbf8775fffed.woff2",
     "static/media/SFProText-Regular.woff2": "/de-wallet/static/media/SFProText-Regular.343eeda8202b6753cf38.woff2",
     "static/media/bitcoin_icon.svg": "/de-wallet/static/media/bitcoin_icon.a6202562ef40c88c5685c39ed5badcc1.svg",
     "static/media/tether_icon.svg": "/de-wallet/static/media/tether_icon.09b74cb27f7ad1251e6f00984a873bee.svg",
@@ -20,11 +24,11 @@
     "static/media/attach_icon.svg": "/de-wallet/static/media/attach_icon.626acc0a28a54e4ee1a6e900ee43a934.svg",
     "static/media/hamburger_icon.svg": "/de-wallet/static/media/hamburger_icon.72f81e0444dcdd7b7aa3a77200a44ff1.svg",
     "static/media/voice_icon.svg": "/de-wallet/static/media/voice_icon.3a64ae18fc6638f2f6775401beac6fd8.svg",
-    "main.26874f9b.css.map": "/de-wallet/static/css/main.26874f9b.css.map",
-    "main.b93eb9d2.js.map": "/de-wallet/static/js/main.b93eb9d2.js.map"
+    "main.bc60ae19.css.map": "/de-wallet/static/css/main.bc60ae19.css.map",
+    "main.72ef46e1.js.map": "/de-wallet/static/js/main.72ef46e1.js.map"
   },
   "entrypoints": [
-    "static/css/main.26874f9b.css",
-    "static/js/main.b93eb9d2.js"
+    "static/css/main.bc60ae19.css",
+    "static/js/main.72ef46e1.js"
   ]
 }
