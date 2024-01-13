@@ -32,6 +32,30 @@ const DATA = [
         date: new Date(),
         quantity: 1253,
     },
+    {
+        img: <TetherIcon className={"svg_icon"} />,
+        currency: "USDT",
+        name: "Tether",
+        price: 2889.32,
+        date: new Date(),
+        quantity: 1253,
+    },
+    {
+        img: <TetherIcon className={"svg_icon"} />,
+        currency: "USDT",
+        name: "Tether",
+        price: 2889.32,
+        date: new Date(),
+        quantity: 1253,
+    },
+    {
+        img: <TetherIcon className={"svg_icon"} />,
+        currency: "USDT",
+        name: "Tether",
+        price: 2889.32,
+        date: new Date(),
+        quantity: 1253,
+    },
 ];
 
 export const TokenRow = ({ elm }: any) => {

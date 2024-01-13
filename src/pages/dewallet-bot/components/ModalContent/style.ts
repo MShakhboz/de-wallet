@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Text } from "../../../../components";
+import { StyleProp } from "./type";
 
 const ModalContentContainer = styled.div`
     width: 100%;
@@ -47,8 +48,9 @@ const ContentSection = styled.div`
     padding: 30px 16px 0;
 `;
 
-const TabContent = styled.div`
-    height: 365px;
+const TabContent = styled.div<StyleProp>`
+    height: ${({ tabId }) => (tabId == "tokens" ? "280px" : "340px")};
+    /* height: 56%; */
     overflow-y: auto;
     margin-right: -16px;
 
@@ -60,7 +62,6 @@ const TabContent = styled.div`
 const BtnWrapper = styled.div`
     display: flex;
     gap: 8px;
-    flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
     justify-content: center;

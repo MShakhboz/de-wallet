@@ -4,6 +4,10 @@ export type TabProps =
     | {
           title: string;
           content: ReactNode;
-          id: number;
+          id: string;
       }
     | undefined;
+
+export type StyleProp = {
+    tabId: string | undefined;
+};

@@ -13,8 +13,8 @@ import { ActiveContainer, TokensContainer } from "./TabContent";
 import { TabProps } from "./type";
 
 const TABS = [
-    { title: "Tokens", content: <TokensContainer />, id: 1 },
-    { title: "Active", content: <ActiveContainer />, id: 2 },
+    { title: "Tokens", content: <TokensContainer />, id: "tokens" },
+    { title: "Active", content: <ActiveContainer />, id: "active" },
 ];
 
 const BUTTON_T = "Buy DFC";
@@ -80,16 +80,20 @@ const ModalContent = ({
                         outline
                     />
                 </BtnWrapper>
-                <div className={"w-100 flex-center"}>
-                    <Button
-                        title={BUTTON_T}
-                        icon={<UpIcon className={"svg_icon"} />}
-                        className={"mt-16"}
-                        onClick={() => console.log("")}
-                    />
-                </div>
+                {tab?.id === "tokens" && (
+                    <div className={"w-100 flex-center"}>
+                        <Button
+                            title={BUTTON_T}
+                            icon={<UpIcon className={"svg_icon"} />}
+                            className={"mt-16"}
+                            onClick={() => console.log("")}
+                        />
+                    </div>
+                )}
                 <Tabs className={"mt-16"} tabs={TABS} onTabSelect={selectTab} />
-                <TabContent className="w-100 mt-16">{tab?.content}</TabContent>
+                <TabContent className="w-100 mt-16" tabId={tab?.id}>
+                    {tab?.content}
+                </TabContent>
             </ContentSection>
         </ModalContentContainer>
     );
