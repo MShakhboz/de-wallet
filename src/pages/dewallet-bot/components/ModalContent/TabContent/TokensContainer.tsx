@@ -92,8 +92,8 @@ export const TokenRow = ({ elm }: any) => {
 const TokensContainer = () => {
     return (
         <Container>
-            {DATA.map((elm) => (
-                <TokenRow elm={elm} />
+            {DATA.map((elm, index: number) => (
+                <TokenRow elm={elm} key={`tokens_elm_u_key_${index + 1}`} />
             ))}
         </Container>
     );

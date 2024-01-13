@@ -16,7 +16,7 @@ const StyledButton = styled.button<StyleProps>`
             : props.theme.colors.link_color};
     border-radius: 40px;
     border: none;
-    font-family: "SFPro Regular";
+    font-family: SFPro Bold;
     cursor: pointer;
 
     color: ${({ outline, ...props }) =>

@@ -9,6 +9,7 @@ export type Colors = {
     light_green: string;
     link_color_op: string;
     slight_grey: string;
+    loading_grey: string;
 };
 
 export type ThemeProps = {

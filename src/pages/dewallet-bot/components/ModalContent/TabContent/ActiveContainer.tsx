@@ -131,8 +131,8 @@ const ActiveContainer = () => {
 
     return (
         <Container>
-            {DATA.map((elm: any) => (
-                <>
+            {DATA.map((elm: any, index: number) => (
+                <div key={`active_elm_${index + 1}`}>
                     {elm?.date && (
                         <Text className={"mb-16"}>
                             {moment(elm?.date).format("MMMM")}
@@ -148,7 +148,7 @@ const ActiveContainer = () => {
                                 />
                             )
                         )}
-                </>
+                </div>
             ))}
         </Container>
     );

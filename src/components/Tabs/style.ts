@@ -11,6 +11,7 @@ const TabsContainer = styled.div`
     border-radius: 8.91px;
 
     .active {
+        font-family: SFPro Bold;
         border-radius: 6.93px;
         border: 0.5px solid ${({ ...props }) => props.theme.colors.border_grey};
         background: ${({ ...props }) => props.theme.colors.white};

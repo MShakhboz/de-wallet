@@ -1,12 +1,14 @@
-import { useCallback, useRef } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { Footer, Modal } from "../../components";
 import { Container, OpenModalBtn } from "./style";
 import { useModal } from "../../hooks";
-import { ModalContent } from "./components";
+import { LoadingContainer, ModalContent } from "./components";
 
 const MENU = "Menu";
 
 const DewalletBot = () => {
+    const [isLoading, setIsLoading] = useState(false);
+
     const { openModal, hideModal, isModalOpened } = useModal();
 
     const onMsgChange = useCallback((e: Event) => {
@@ -18,13 +20,23 @@ const DewalletBot = () => {
         [hideModal, isModalOpened, openModal]
     );
 
+    useEffect(() => {
+        setIsLoading(true);
+
+        const timeoutId = setTimeout(() => {
+            setIsLoading(false);
+        }, 2000);
+
+        return () => clearTimeout(timeoutId);
+    }, []);
+
     return (
         <Container>
             <div className="flex-center mt-64  menu-btn-box">
                 <OpenModalBtn title={MENU} onClick={triggerModal} />
             </div>
             <Modal
-                content={<ModalContent />}
+                content={!isLoading ? <ModalContent /> : <LoadingContainer />}
                 isOpen={isModalOpened}
                 onClose={hideModal}
             />
