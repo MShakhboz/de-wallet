@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/de-wallet/static/css/main.26874f9b.css",
+    "main.js": "/de-wallet/static/js/main.118edc3a.js",
+    "static/media/SFProText-Regular.eot": "/de-wallet/static/media/SFProText-Regular.aabd798319492c6c3969.eot",
+    "static/media/SFProText-Regular.ttf": "/de-wallet/static/media/SFProText-Regular.17df19227c402f374807.ttf",
+    "static/media/SFProText-Regular.woff": "/de-wallet/static/media/SFProText-Regular.66393b3b3bbb0ca35717.woff",
+    "static/media/SFProText-Regular.woff2": "/de-wallet/static/media/SFProText-Regular.343eeda8202b6753cf38.woff2",
+    "static/media/bitcoin_icon.svg": "/de-wallet/static/media/bitcoin_icon.a6202562ef40c88c5685c39ed5badcc1.svg",
+    "static/media/tether_icon.svg": "/de-wallet/static/media/tether_icon.09b74cb27f7ad1251e6f00984a873bee.svg",
+    "static/media/buy_icon.svg": "/de-wallet/static/media/buy_icon.ab4bf14235ace03dabfa8d43f7a4f852.svg",
+    "static/media/type_icon.svg": "/de-wallet/static/media/type_icon.641adda0d1ab701d1561a236fc53da6c.svg",
+    "static/media/circle_points.svg": "/de-wallet/static/media/circle_points.5770d1db60d947662b68bb40ba344dbc.svg",
+    "static/media/ton_icon.svg": "/de-wallet/static/media/ton_icon.441c661c3f9c9dbb8ef36d8997215f60.svg",
+    "static/media/send_icon.svg": "/de-wallet/static/media/send_icon.fcd79ee276fbef7a9e217d54dc3bfc94.svg",
+    "static/media/up_icon.svg": "/de-wallet/static/media/up_icon.73e5ca8d2711d8e5293e48d1e2105e8e.svg",
+    "static/media/deposit_icon.svg": "/de-wallet/static/media/deposit_icon.f2f769511c56c0ee73978df54c05ef27.svg",
+    "static/media/withdraw_icon.svg": "/de-wallet/static/media/withdraw_icon.8876e84f82e976b9d38bbda134896cee.svg",
+    "index.html": "/de-wallet/index.html",
+    "static/media/attach_icon.svg": "/de-wallet/static/media/attach_icon.626acc0a28a54e4ee1a6e900ee43a934.svg",
+    "static/media/hamburger_icon.svg": "/de-wallet/static/media/hamburger_icon.72f81e0444dcdd7b7aa3a77200a44ff1.svg",
+    "static/media/voice_icon.svg": "/de-wallet/static/media/voice_icon.3a64ae18fc6638f2f6775401beac6fd8.svg",
+    "main.26874f9b.css.map": "/de-wallet/static/css/main.26874f9b.css.map",
+    "main.118edc3a.js.map": "/de-wallet/static/js/main.118edc3a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26874f9b.css",
+    "static/js/main.118edc3a.js"
+  ]
+}
