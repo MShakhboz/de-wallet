@@ -22,8 +22,6 @@ const StyledButton = styled.div<StyleProps>`
     font-size: 15px;
     font-style: normal;
     font-weight: 590;
-    /* line-height: 22px;  */
-    /* letter-spacing: -0.43px; */
 
     &:active {
         opacity: 0.8;

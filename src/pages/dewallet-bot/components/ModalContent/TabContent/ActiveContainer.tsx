@@ -1,14 +1,13 @@
 import { memo } from "react";
-import { Container, Row } from "./style";
+import { useTheme } from "styled-components";
+import moment from "moment";
 import { Text } from "../../../../../components";
 import {
-    BitcoinIcon,
     DepositIcon,
-    TetherIcon,
     TonIcon,
     WithdrawIcon,
 } from "../../../../../components/Svg";
-import moment from "moment";
+import { Container, Row } from "./style";
 import { ActiveElmProps } from "./type";
 
 const DATA = [
@@ -97,7 +96,7 @@ const DATA = [
     },
 ];
 
-export const ActiveRow = ({ item }: any) => {
+export const ActiveRow = ({ item, grey }: any) => {
     return (
         <Row>
             <div className="row-col-1">
@@ -114,7 +113,7 @@ export const ActiveRow = ({ item }: any) => {
             </div>
             <div className="row-col-2">
                 <Text dark>{item?.status}</Text>
-                <Text sm color={"rgba(142, 142, 147, 1)"}>
+                <Text sm color={grey}>
                     {item?.code}
                 </Text>
             </div>
@@ -130,7 +129,7 @@ export const ActiveRow = ({ item }: any) => {
                     }).format(item?.transactionAmt)}{" "}
                     <span>{item?.currency}</span>
                 </Text>
-                <Text sm color={"rgba(142, 142, 147, 1)"}>
+                <Text sm color={grey}>
                     {moment(item?.date).format("DD MMM hh:mm")}
                 </Text>
             </div>
@@ -139,6 +138,8 @@ export const ActiveRow = ({ item }: any) => {
 };
 
 const ActiveContainer = () => {
+    const theme = useTheme();
+
     return (
         <Container>
             {DATA.map((elm: any) => (
@@ -154,6 +155,7 @@ const ActiveContainer = () => {
                                 <ActiveRow
                                     item={item}
                                     key={`active_elm_u_key_${index + 1}`}
+                                    grey={theme.colors.slight_grey}
                                 />
                             )
                         )}

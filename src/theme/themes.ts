@@ -10,6 +10,7 @@ export const colors: Colors = {
     border_grey: "rgba(120, 120, 128, 0.16)",
     light_green: "#00B83E",
     link_color_op: "rgba(0, 122, 255, 0.1)",
+    slight_grey: "rgba(142, 142, 147, 1)",
 };
 
 const themes: ThemeProps = { colors };

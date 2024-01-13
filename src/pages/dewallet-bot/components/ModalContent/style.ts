@@ -50,12 +50,15 @@ const ContentSection = styled.div`
 
 const TabContent = styled.div<StyleProp>`
     height: ${({ tabId }) => (tabId == "tokens" ? "280px" : "340px")};
-    /* height: 56%; */
     overflow-y: auto;
     margin-right: -16px;
 
     &::-webkit-scrollbar {
         display: none;
+    }
+
+    @media only screen and (min-width: 1279px) {
+        height: ${({ tabId }) => (tabId == "tokens" ? "380px" : "420px")};
     }
 `;
 

@@ -1,16 +1,8 @@
 import { memo, useCallback, useState } from "react";
 import { TabsContainer, TabBox } from "./style";
+import { Props } from "./type";
 
-const Tabs = ({
-    tabs = [],
-    className,
-    onTabSelect,
-    ...props
-}: {
-    tabs?: any[];
-    className?: string | undefined;
-    onTabSelect: (ind: number) => void;
-}) => {
+const Tabs = ({ tabs = [], className, onTabSelect, ...props }: Props) => {
     const [selected, setSelected] = useState(0);
 
     const onSelect = useCallback(
