@@ -16,6 +16,7 @@ const StyledButton = styled.button<StyleProps>`
             : props.theme.colors.link_color};
     border-radius: 40px;
     border: none;
+    outline: none;
     font-family: SFPro Bold;
     cursor: pointer;
 
