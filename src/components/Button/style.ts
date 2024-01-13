@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { StyleProps } from "./type";
 
-const StyledButton = styled.div<StyleProps>`
+const StyledButton = styled.button<StyleProps>`
     display: flex;
     max-width: ${({ width }) => width || "450px"};
     width: 100%;
@@ -15,6 +15,8 @@ const StyledButton = styled.div<StyleProps>`
             ? props.theme.colors.link_color_op
             : props.theme.colors.link_color};
     border-radius: 40px;
+    border: none;
+    font-family: "SFPro Regular";
     cursor: pointer;
 
     color: ${({ outline, ...props }) =>
@@ -25,6 +27,7 @@ const StyledButton = styled.div<StyleProps>`
 
     &:active {
         opacity: 0.8;
+        border-radius: 40px;
     }
 `;
 
