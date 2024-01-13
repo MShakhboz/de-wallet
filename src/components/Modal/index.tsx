@@ -9,10 +9,8 @@ const Modal = ({ content, isOpen, onClose }: Props) => {
 
     return (
         <ModalContainer>
-            <ModalContent>
-                <ModalHeader hideModal={onClose} />
-                {content}
-            </ModalContent>
+            <ModalHeader hideModal={onClose} />
+            <ModalContent>{content}</ModalContent>
             {/* <button onClick={onClose}>Close</button> */}
         </ModalContainer>
     );

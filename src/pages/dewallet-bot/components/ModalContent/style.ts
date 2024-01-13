@@ -39,7 +39,6 @@ const CustomText = styled(Text)`
 `;
 
 const ContentSection = styled.div`
-    height: 542px;
     width: 100%;
     background-color: ${({ ...props }) => props.theme.colors.white};
     border-top-right-radius: 20px;
@@ -49,17 +48,10 @@ const ContentSection = styled.div`
 `;
 
 const TabContent = styled.div<StyleProp>`
-    height: ${({ tabId }) => (tabId == "tokens" ? "280px" : "340px")};
-    /* overflow-y: auto; */
     margin-right: -16px;
 
     &::-webkit-scrollbar {
         display: none;
-    }
-
-    @media only screen and (min-width: 1279px) {
-        overflow-y: auto;
-        height: ${({ tabId }) => (tabId == "tokens" ? "380px" : "380px")};
     }
 `;
 
