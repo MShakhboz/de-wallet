@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/de-wallet/static/css/main.bc60ae19.css",
-    "main.js": "/de-wallet/static/js/main.bc6ee21b.js",
+    "main.js": "/de-wallet/static/js/main.705c39f3.js",
     "static/media/SFProText-Bold.eot": "/de-wallet/static/media/SFProText-Bold.63d576a6904d6497f548.eot",
     "static/media/SFProText-Bold.ttf": "/de-wallet/static/media/SFProText-Bold.07d37090723cdb8a1bca.ttf",
     "static/media/SFProText-Regular.eot": "/de-wallet/static/media/SFProText-Regular.aabd798319492c6c3969.eot",
@@ -25,10 +25,10 @@
     "static/media/hamburger_icon.svg": "/de-wallet/static/media/hamburger_icon.72f81e0444dcdd7b7aa3a77200a44ff1.svg",
     "static/media/voice_icon.svg": "/de-wallet/static/media/voice_icon.3a64ae18fc6638f2f6775401beac6fd8.svg",
     "main.bc60ae19.css.map": "/de-wallet/static/css/main.bc60ae19.css.map",
-    "main.bc6ee21b.js.map": "/de-wallet/static/js/main.bc6ee21b.js.map"
+    "main.705c39f3.js.map": "/de-wallet/static/js/main.705c39f3.js.map"
   },
   "entrypoints": [
     "static/css/main.bc60ae19.css",
-    "static/js/main.bc6ee21b.js"
+    "static/js/main.705c39f3.js"
   ]
 }
