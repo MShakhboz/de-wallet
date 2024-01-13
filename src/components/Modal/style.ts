@@ -23,8 +23,8 @@ const ModalContainer = styled.div`
     bottom: 0;
     left: 50%;
     width: 100%;
-    max-height: 781px;
-    min-height: 666px;
+    /* max-height: 781px;
+    min-height: 666px; */
     background-color: white;
     box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
     border-top-right-radius: 20px;
@@ -39,6 +39,11 @@ const ModalContainer = styled.div`
         left: 50%;
         transform: translate(-50%, 0%);
     }
+`;
+
+const ModalContent = styled.div`
+    overflow-y: auto;
+    height: 90vh;
 `;
 
 const ModalHeaderWrapper = styled.div`
@@ -76,4 +81,4 @@ const ModalHeaderWrapper = styled.div`
     }
 `;
 
-export { ModalContainer, ModalHeaderWrapper };
+export { ModalContainer, ModalHeaderWrapper, ModalContent };
