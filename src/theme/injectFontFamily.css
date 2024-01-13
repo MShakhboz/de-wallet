@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'SFPro Light';
     src: url('../../public/fonts/SFProText-Light.eot');
     src: url('../../public/fonts/SFProText-Light.eot?#iefix') format('embedded-opentype'),
@@ -68,7 +68,7 @@
     font-weight: 100;
     font-style: italic;
     font-display: swap;
-}
+} */
 
 @font-face {
     font-family: 'SFPro Regular';
@@ -82,7 +82,7 @@
     font-display: swap;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'SFProText';
     src: url('../../public/fonts/SFProText-Black.eot');
     src: url('../../public/fonts/SFProText-Black.eot?#iefix') format('embedded-opentype'),
@@ -92,9 +92,9 @@
     font-weight: 900;
     font-style: normal;
     font-display: swap;
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: 'SFProText';
     src: url('../../public/fonts/SFProText-BoldItalic.eot');
     src: url('../../public/fonts/SFProText-BoldItalic.eot?#iefix') format('embedded-opentype'),
@@ -116,5 +116,5 @@
     font-weight: 300;
     font-style: italic;
     font-display: swap;
-}
+} */
 
