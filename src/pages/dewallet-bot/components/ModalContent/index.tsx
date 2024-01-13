@@ -11,7 +11,6 @@ import { Button, Tabs, Text } from "../../../../components";
 import { BuyIcon, SendIcon, UpIcon } from "../../../../components/Svg";
 import { ActiveContainer, TokensContainer } from "./TabContent";
 import { TabProps } from "./type";
-import LoadingContainer from "../LoadingContainer";
 
 const TABS = [
     { title: "Tokens", content: <TokensContainer />, id: "tokens" },

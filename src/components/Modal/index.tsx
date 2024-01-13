@@ -1,4 +1,4 @@
-import { ReactNode, memo } from "react";
+import { memo } from "react";
 
 import ModalHeader from "./ModalHeader";
 import { ModalContainer, ModalContent } from "./style";

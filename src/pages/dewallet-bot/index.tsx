@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useLayoutEffect, useState } from "react";
 import { Footer, Modal } from "../../components";
 import { Container, OpenModalBtn } from "./style";
 import { useModal } from "../../hooks";
@@ -20,7 +20,7 @@ const DewalletBot = () => {
         [hideModal, isModalOpened, openModal]
     );
 
-    useEffect(() => {
+    useLayoutEffect(() => {
         if (isModalOpened) {
             setIsLoading(true);
 
