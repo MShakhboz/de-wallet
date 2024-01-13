@@ -21,14 +21,16 @@ const DewalletBot = () => {
     );
 
     useEffect(() => {
-        setIsLoading(true);
+        if (isModalOpened) {
+            setIsLoading(true);
 
-        const timeoutId = setTimeout(() => {
-            setIsLoading(false);
-        }, 2000);
+            const timeoutId = setTimeout(() => {
+                setIsLoading(false);
+            }, 2000);
 
-        return () => clearTimeout(timeoutId);
-    }, []);
+            return () => clearTimeout(timeoutId);
+        }
+    }, [isModalOpened]);
 
     return (
         <Container>
